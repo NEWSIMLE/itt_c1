@@ -1,0 +1,13 @@
+
+#include <vector>
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int n,w;
+    cin>>n;
+    vector<int>a(n);
+    for(int &x:a) cin>>x;
+    while(n--) cout<<a[n]<<" ";
+}
